@@ -21,7 +21,7 @@ int (*find_bet(const char *format))(va_list)
 		return (find[i].f);
 	i++;
 	}
-	return (0);
+	return (NULL);
 }
 
 /**
