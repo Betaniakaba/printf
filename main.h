@@ -9,6 +9,9 @@
 
 int _printf(const char *format, ...);
 int _putchar(char c);
+int print_char(va_list c);
+int print_string(va_list s);
+int print_percent(void);
 
 /**
 * struct function_format - Structure Format

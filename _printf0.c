@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-* find_mia - function that finds a format for printf
+* find_bet - function that finds a format for printf
 *
 * @format: format
 * Return: The number of characters printed
 */
-int (*find_mia(char *format))(va_list)
+int (*find_bet(const char *format))(va_list)
 {
-	unsigned int m = 0;
+	unsigned int i = 0;
 
 	func_find find[] = {
 	{"c", print_char}, 
@@ -41,7 +41,7 @@ int _printf(const char *format, ...)
 	va_start(argp, format);
 	while (format[i])
 	{
-		while (format[i] != ...)
+		while (format[i] != '%' && format[i])
 		{
 			_putchar(format[i]);
 			count++;
@@ -49,12 +49,12 @@ int _printf(const char *format, ...)
 		}
 		if (format[i] == '\0')
 			return (count);
-		f = find_mia(&format[i + 1]);
+		f = find_bet(&format[i + 1]);
 		if (f != NULL)
 		{
 			count += f(argp);
 			i += 2;
-			countinue;
+			continue;
 		}
 		if (!format[i + 1])
 			return (1);
