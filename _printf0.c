@@ -11,7 +11,7 @@ int (*find_bet(const char *format))(va_list)
 	unsigned int i = 0;
 
 	func_find find[] = {
-	{"c", print_char}, 
+	{"c", print_char},
 	{"s", print_string},
 	{NULL, NULL}
 };
@@ -62,7 +62,7 @@ int _printf(const char *format, ...)
 		count++;
 		if (format[i + 1] == '%')
 			i += 2;
-		else 
+		else
 			i++;
 	}
 	va_end(argp);

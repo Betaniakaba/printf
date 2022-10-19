@@ -15,7 +15,7 @@ int print_percent(void);
 
 /**
 * struct function_format - Structure Format
-* 
+*
 * @sf: The specifiers
 * @f: The function
 */
@@ -23,7 +23,6 @@ typedef struct function_format
 {
 	char *sf;
 	int (*f)(va_list);
-}
-func_find;
+} func_find;
 
 #endif
