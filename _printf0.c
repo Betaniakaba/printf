@@ -37,7 +37,7 @@ int _printf(const char *format, ...)
 	unsigned int i = 0, count = 0;
 
 	if (format == NULL)
-		return (1);
+		return (-1);
 	va_start(argp, format);
 	while (format[i])
 	{
@@ -57,7 +57,7 @@ int _printf(const char *format, ...)
 			continue;
 		}
 		if (!format[i + 1])
-			return (1);
+			return (-1);
 		_putchar(format[i]);
 		count++;
 		if (format[i + 1] == '%')
