@@ -1,53 +1,26 @@
+
 #include "main.h"
 
 /**
- *print_char - writes character to stdout
- *@c: char parameter
+ *print_decimal - prints decimal numbers to stdout
+ *@d: float parameter
  *
  *Return: 0
  */
 
-int print_char(va_list c)
+int print_decimal(va_list d)
 {
-unsigned char character;
-character = va_arg(c, int);
-_putchar(character);
-return (1);
+
 }
 
 /**
- *print_percent - % handler
+ *print_integer - writes integer to stdout
+ *@i: unsigned int argument
  *
  *Return: 0
  */
 
-int print_percent(void)
+int print_integer(va_list i)
 {
-_putchar('%');
-return (1);
-}
 
-/**
- *print_string - writes string of characters to stdout
- *@s: char * parameter
- *
- *Return: 0
- */
-
-int print_string(va_list s)
-{
-char *string;
-int b = 0;
-
-string = va_arg(s, char *);
-
-if (string == NULL)
-string = "(null)";
-
-while (string[b])
-{
-_putchar(string[b]);
-b++;
-}
-return (b);
 }
