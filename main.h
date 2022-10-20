@@ -12,6 +12,9 @@ int _putchar(char c);
 int print_char(va_list c);
 int print_string(va_list s);
 int print_percent(void);
+int print_decimal(va_list d);
+int print_integer(va_list i);
+int print_binary(va_list b);
 
 /**
 * struct function_format - Structure Format
