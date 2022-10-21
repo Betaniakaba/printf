@@ -20,6 +20,8 @@ int (*find_bet(const char *format))(va_list)
 	{"o", print_octal},
 	{"x", print_x},
 	{"X", print_X},
+	{"r", print_reverse},
+	{"R", print_rot13},
 	{NULL, NULL}
 };
 	while (find[i].sf)
