@@ -18,8 +18,10 @@ format is a character string. The format string is composed of zero or more dire
 
 ## Write a function that produces output according to the following format
 
-|Conversion Specification|Type|In correlation to task:|
+|Conversion Specification|Output|In correlation to task:|
 |:----------------------:|:--:|:---------------------:|
-|c|Char|Task 0|
+|c|Character|Task 0|
+|s|String of characters|Task 0|
+|%|In order for the output to read % instead of reading it as a conversion specifier |Task0|
 
 	
