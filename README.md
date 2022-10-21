@@ -26,11 +26,11 @@ The printf() function formats and prints a series of characters and values to th
 |d|Signed decimal|Task 1, 1-Specifier.c|
 |i|Signed integer|Task 1, 1-Specifier.c|
 |b|Unsigned binary|Task 2, 2-Specifier.c|
-|u|
-|o|
-|x|
-|X|
-|p|
+|u|Unsigned specifier|
+|o|Octal Representation|
+|x|Lower Case Hexadecimal|
+|X|Upper Case Hexadecimal
+|p|Pointer|
 |+|
 |space|
 |#|
