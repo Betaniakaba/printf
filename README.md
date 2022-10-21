@@ -16,6 +16,19 @@ This is our first group project at Alx-Holberton School, consisting of duplicati
 |d|Signed decimal|Task 1, 1-Specifier.c|
 |i|Signed integer|Task 1, 1-Specifier.c|
 |b|Unsigned binary|Task 2, 2-Specifier.c|
+|u
+|o
+|x
+|X
+|p
+|+
+|space
+|#
+|l
+|h
+|r
+|R
+
 
 # RETURN VALUE
 
