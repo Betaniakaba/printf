@@ -1,6 +1,6 @@
 # Task 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 
-	`- #ffffff`## Write a function that produces output according to a format.
+## Write a function that produces output according to a format.
 	Prototype given: int _printf(const char *format, ...);
 	Prototype used: int print_char(va_list c);
 	Returns: the number of characters printed (excluding the null byte used to end output to strings)
@@ -12,7 +12,7 @@
 
 # Task 1. Education is when you read the fine print. Experience is what you get if you don't
 
-	## Write a function that produces output according to the following format
+## Write a function that produces output according to the following format
 	Specifiers allowed to use:
 	- d
 	- i
