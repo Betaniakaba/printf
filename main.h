@@ -14,7 +14,12 @@ int print_string(va_list s);
 int print_percent(void);
 int print_decimal(va_list d);
 int print_integer(va_list i);
+int print_unsig(va_list u);
+int print_octal(va_list o);
 int print_binary(va_list b);
+int print_hex(unsigned int n, unsigned int c);
+int print_x(va_list x);
+int print_X(va_list X);
 
 /**
 * struct function_format - Structure Format
