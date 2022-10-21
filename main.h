@@ -22,9 +22,6 @@ int print_x(va_list x);
 int print_X(va_list X);
 int print_reverse(va_list r);
 int print_rot13(va_list R);
-int print_non_printable(va_list types, char buffer[], int flags, int width, int precision, int size)
-int print_pointer(va_list types, char buffer[], int flags, int width, int precision, int size)
-
 
 /**
 * struct function_format - Structure Format

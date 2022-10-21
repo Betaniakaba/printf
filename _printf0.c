@@ -22,7 +22,6 @@ int (*find_bet(const char *format))(va_list)
 	{"X", print_X},
 	{"r", print_reverse},
 	{"R", print_rot13},
-	{"p", print_pointer},
 	{NULL, NULL}
 };
 	while (find[i].sf)
