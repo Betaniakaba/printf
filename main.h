@@ -20,10 +20,6 @@ int print_binary(va_list b);
 int print_hex(unsigned int n, unsigned int c);
 int print_x(va_list x);
 int print_X(va_list X);
-int print_pointer(va_list types, char buffer[], int flags, int width, int precision, int size);
-int print_non_printable(va_list types, char buffer[], int flags, int width, int precision, int size);
-int print_reverse(va_list types, char buffer[], int flags, int width, int precision, int size);
-int print_rot13string(va_list types, char buffer[], int flags, int width, int precision, int size);
 
 /**
 * struct function_format - Structure Format
