@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * print_hex - function that prints an unsigned int in hexadecimal
 * @n: unsigned to be printed
@@ -58,7 +59,6 @@ int print_x(va_list x)
 {
 	return (print_hex(va_arg(x, unsigned int), 0));
 }
-
 /**
 * print_X - takes an unsigned int an prints it in uppercase hex
 * @X: unsigned int to print
