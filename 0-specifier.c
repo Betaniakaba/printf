@@ -9,10 +9,10 @@
 
 int print_char(va_list c)
 {
-unsigned char character;
-character = va_arg(c, int);
-_putchar(character);
-return (1);
+	unsigned char character;
+	character = va_arg(c, int);
+	_putchar(character);
+	return (1);
 }
 
 /**
@@ -22,10 +22,10 @@ return (1);
  */
 
 int print_percent(void)
-{
-_putchar('%');
-return (1);
-}
+	{
+	_putchar('%');
+	return (1);
+	}
 
 /**
  *print_string - writes string of characters to stdout
@@ -36,18 +36,18 @@ return (1);
 
 int print_string(va_list s)
 {
-char *string;
-int b = 0;
+	char *string;
+	int b = 0;
 
-string = va_arg(s, char *);
+	string = va_arg(s, char *);
 
-if (string == NULL)
-string = "(null)";
+	if (string == NULL)
+	string = "(null)";
 
-while (string[b])
-{
-_putchar(string[b]);
-b++;
-}
+	while (string[b])
+	{
+	_putchar(string[b]);
+	b++;
+	}
 return (b);
 }
