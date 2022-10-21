@@ -17,9 +17,9 @@ format is a character string. The format string is composed of zero or more dire
 # Task 2. With a face like mine, I do better in print
 
 ## Write a function that produces output according to the following format
-+------------------------+----+-----------------------+
+
 |Conversion Specification|Type|In correlation to task:|
-+========================+====+=======================+
+|:----------------------:|:--:|:---------------------:|
 |c|Char|Task 0|
 
 	
