@@ -18,6 +18,7 @@ format is a character string. The format string is composed of zero or more dire
 
 ## Write a function that produces output according to the following format
 
-|**Conversion Specification**|**Type**|
+|Conversion Specification|Type|
+|:----------------------:|:--:|
 
 	
