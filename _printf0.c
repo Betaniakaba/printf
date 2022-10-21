@@ -13,6 +13,8 @@ int (*find_bet(const char *format))(va_list)
 	func_find find[] = {
 	{"c", print_char},
 	{"s", print_string},
+	{"d", print_decimal},
+	{"i", print_integer},
 	{"b", print_binary},
 	{NULL, NULL}
 };
