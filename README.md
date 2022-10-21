@@ -22,8 +22,9 @@ This is our first group project at Alx-Holberton School, consisting of duplicati
 See [man 3 printf](https://linux.die.net/man/3/printf) for more detail.
 
 # Task 0. 
-# I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
-## Write a function that produces output according to a format.
+## I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
+
+**Write a function that produces output according to a format.**
 	
 *Prototype given:* int _printf(const char \*format, ...);\
 *Prototype used:* int print_char(va_list c);
@@ -34,17 +35,17 @@ format is a character string. The format string is composed of zero or more dire
 
 
 # Task 1. 
-# Education is when you read the fine print. Experience is what you get if you don't
+## Education is when you read the fine print. Experience is what you get if you don't
 
-## Write a function that produces output according to the following format
+**Write a function that produces output according to the following format**
 	
 *Prototype used:* int print_decimal(va_list d)
 *Returns:* Prints decimal numbers to stdout
 
 # Task 2. 
-# With a face like mine, I do better in print
+## With a face like mine, I do better in print
 
-## Write a function that produces output according to the following format
+**Write a function that produces output according to the following format**
 
 
 
