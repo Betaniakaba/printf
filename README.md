@@ -1,5 +1,9 @@
 ## Printf. 
 
+This is our first group project at Alx-Holberton School, consisting of duplicating the [printf (3) function](https://manual.cs50.io/3/printf) of the programming language, dubbed _printf.
+
+
+
 See [man 3 printf](https://manual.cs50.io/3/printf) for more detail.
 
 # Task 0. 
