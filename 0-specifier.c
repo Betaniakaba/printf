@@ -10,6 +10,7 @@
 int print_char(va_list c)
 {
 	unsigned char character;
+
 	character = va_arg(c, int);
 	_putchar(character);
 	return (1);
