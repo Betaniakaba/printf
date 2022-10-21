@@ -1,12 +1,22 @@
-## Printf. 
+## 0x11.C Printf 
 
 This is our first group project at Alx-Holberton School, consisting of duplicating the [printf (3) function](https://linux.die.net/man/3/printf) of the programming language, dubbed _printf.
 
 # SYNOPSIS
-
 ###### Header File
+```
+#include <stdio.h>
+```
+###### Prototype
+```
+int _printf(const char \*format, ...);
+```
+This `...` represents zero or more additional arguments(meaning it takes a number of arguments and is not limited).
 
 # DESCRIPTION
+The printf() function formats and prints a series of characters and values to the standard output stream stdout.
+
+`Using different format specifiers to convert the output as specified by the programmer`
 
 |Conversion Specification|Output|In correlation to task:|
 |:----------------------:|:--:|:---------------------:|
